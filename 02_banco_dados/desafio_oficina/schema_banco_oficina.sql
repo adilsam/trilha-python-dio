@@ -49,14 +49,6 @@ create table motos (
 	constraint fk_veiculo_moto foreign key (id_veiculo_moto) references veiculos(id_veiculo)   
 );
 
-*
-Tabela: 
-Chave Primária:
-Chave Estrangeira:
-Restrições:
-Descrição da Tabela: 
-Descrição dos Campos: 
-*/
 create table carros(
     	id_carro int auto_increment,
     	id_veiculo_carro int not null,
